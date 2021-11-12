@@ -1,0 +1,34 @@
+// UTILS
+@import './utils/variables';
+@import './utils/mixin';
+@import './utils/visually-hidden';
+
+// BASE
+@import './base/modern-normalize';
+@import './base/commons';
+@import './base/container';
+@import './base/genetral-title';
+@import './base/section';
+
+//COMPONENTS
+@import './components/logo';
+@import './components/hero-button';
+@import './components/team-social';
+@import './components/modal';
+
+// LAYOUT
+// HEDER
+@import './layout/header/page-header';
+@import './layout/header/page-header-main-nav';
+@import './layout/header/page-header-contacts';
+// MAIN
+@import './layout/main/page-main-hero';
+@import './layout/main/page-main-features';
+@import './layout/main/page-main-works';
+@import './layout/main/page-main-team';
+@import './layout/main/page-main-clients';
+//FOOTER
+@import './layout/footer/page-footer';
+@import './layout/footer/page-footer-left-box';
+@import './layout/footer/page-footer-center-box';
+@import './layout/footer/page-footer-right-box';

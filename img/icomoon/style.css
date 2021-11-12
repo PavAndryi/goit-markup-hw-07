@@ -1,0 +1,48 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.brand {
+  width: 1.78125em;
+}
+
+.company {
+  width: 1.78125em;
+}
+
+.envelope {
+  width: 1.34375em;
+}
+
+.foster-peters {
+  width: 1.78125em;
+}
+
+.tag-line {
+  width: 1.78125em;
+}
+
+.tagline-here {
+  width: 1.6875em;
+}
+
+.vector {
+  width: 0.625em;
+}
+
+.ya-and-co {
+  width: 1.78125em;
+}

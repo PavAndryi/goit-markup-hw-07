@@ -1,0 +1,26 @@
+.footer-left_box {
+  display: inline-block;
+}
+
+.footer__text {
+  color: rgba(255, 255, 255, 0.6);
+
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  cursor: pointer;
+  transition: color $t250 $cubic;
+}
+
+.footer__item {
+  margin-bottom: 9px;
+}
+
+.footer__item:nth-child(3n) {
+  margin-bottom: 0;
+}
+
+.footer__text:hover,
+.footer__text:focus {
+  color: $white-color;
+}

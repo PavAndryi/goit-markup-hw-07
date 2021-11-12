@@ -1,0 +1,20 @@
+.main-nav__logo {
+  margin-right: 94px;
+  @include sizeLOGO();
+  color: $brand-color;
+}
+
+.main-nav__logo--color {
+  color: $brand-black-color;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+  color: $brand-color;
+  @include sizeLOGO();
+  cursor: default;
+}
+
+.footer__logo--color {
+  color: $white-color;
+}

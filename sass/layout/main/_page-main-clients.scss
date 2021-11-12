@@ -1,0 +1,31 @@
+.clients {
+  background-color: $white-color;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients__item {
+  cursor: pointer;
+}
+
+.clients__link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $social-color;
+  box-sizing: border-box;
+  border-radius: 4px;
+  fill: $social-color;
+  transition: border-color $t250 $cubic, fill $t250 $cubic;
+}
+
+.clients__link:hover,
+.clients__link:focus {
+  border: 1px solid $brand-color;
+  fill: $brand-color;
+}

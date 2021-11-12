@@ -1,0 +1,28 @@
+.works {
+  padding-top: 0;
+}
+
+.works__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works__item {
+  position: relative;
+}
+
+.works__label {
+  @include centerFLEX();
+  justify-content: center;
+
+  bottom: 0;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+
+  background: $works-rgba;
+}
+
+.works__text {
+  color: $white-color;
+}

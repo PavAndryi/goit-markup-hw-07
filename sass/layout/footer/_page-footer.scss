@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  padding: 60px 0;
+
+  background-color: $banner-color;
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
